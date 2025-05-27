@@ -222,11 +222,11 @@ width: 50%;
     margin-top: 20px;
 }
 .card-content h2{
-    margin-top: 20px;
+    margin-top: 24px;
 }
 #footer-part {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    padding: 10px 250px;
+    padding: 38px 250px;
 }
