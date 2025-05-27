@@ -1,0 +1,232 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#B8E7FA, #E6E6FA);
+}
+
+#banner-header {
+    background-color: white;
+    padding: 0px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#banner-header p {
+    margin-left: 32px;
+}
+
+#banner-header span {
+    color: #FFA500;
+}
+
+#banner-header button {
+    background-image: linear-gradient(#FFA500, #FFD447);
+    border-radius: 16px;
+    padding: 17px 24px;
+    /* margin: 0px 100px 0px; */
+    margin: 32px 38px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: black;
+    border: 2px solid black;
+    background-size: cover;
+}
+
+#banner-container {
+    background-color: #E6EDF9;
+    padding: 40px 60px 60px;
+    margin: 32px 50px;
+    border-radius: 16px;
+
+}
+
+.banner-image {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    padding-bottom: 32px;
+
+}
+
+.banner-content p {
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
+.banner-content h2 {
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
+.banner-content button {
+    background-image: linear-gradient(#FFA500, #FFD447);
+    border-radius: 16px;
+    padding: 17px 24px;
+    margin: 0px auto ;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+}
+.btn:hover {
+    background-color:aqua;
+box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+#second-container {
+    margin-top: 100px;
+}
+
+/* #second-container-main {} */
+
+#second-inner-part {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: white;
+    padding: 48px 48px;
+    margin: 0px 50px;
+    gap: auto;
+}
+.second-container-header {
+    text-align: center;
+    margin-bottom: 32px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+ .second-container-header p {
+margin-top: 20px;
+ }
+.second-inner-text {
+    font-size: 10px;
+    padding: 150px 48px;
+    color: #666f84;
+    text-align: start;
+}
+.second-inner-image{
+width: 50%;
+}
+.second-inner-text p {
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.second-inner-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.second-inner-text button {
+    background-image: linear-gradient(#FFA500, #FFD447);
+    border-radius: 16px;
+    padding: 17px 24px;
+    margin: 0px 100px auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third-container {
+    margin: 100px auto;
+    padding: 0px auto;
+    gap: 24px;
+}
+
+.third-container-text {
+    text-align: center;
+    color: #0D1321;
+    margin-left: 148px;
+    margin-right: 148px;
+
+}
+
+.third-container-text h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.third-container-text p {
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin: 15px 250px;
+}
+
+.video-part {
+    padding: 32px 32px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 400px;
+    border: 2px solid #666f84;
+    border-radius: 16px;
+    max-width: 100%;
+    height: auto;
+}
+
+#fourth-container {
+    padding: 40px 60px 60px;
+    margin: 32px 50px;
+}
+
+.fourth-text {
+    text-align: center;
+}
+
+.fourth-text h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    padding-bottom: 32px;
+}
+
+.fourth-text h2 {
+    font-size: 16px;
+}
+
+#box-content {
+    padding-bottom: 32px;
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.card-content {
+    background-color: white;
+    padding: 90px 90px;
+    border-radius: 16px;
+}
+.card-content p{
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.card-content h2{
+    margin-top: 20px;
+}
+#footer-part {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 250px;
+}

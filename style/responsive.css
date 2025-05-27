@@ -1,0 +1,16 @@
+@media screen and (max-width :1200px){
+    
+}
+
+/* Tablet device */
+@media screen and (max-width :1024px){
+    .second-container-image {
+    display: column;
+width: 100%;
+}
+}
+
+/* Mobile device */
+@media screen and (max-width :640px){
+    
+}
