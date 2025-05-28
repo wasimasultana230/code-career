@@ -217,12 +217,14 @@ width: 50%;
     padding: 90px 90px;
     border-radius: 16px;
 }
-.card-content p{
-    text-decoration: underline;
-    margin-top: 20px;
+.card-content a{
+    margin-top: 30px;
+    
 }
 .card-content h2{
     margin-top: 24px;
+    margin-bottom: 24px;
+ 
 }
 #footer-part {
     display: flex;
