@@ -6,10 +6,11 @@
 
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
+
 body {
     min-height: 100vh;
     background-image: linear-gradient(#B8E7FA, #E6E6FA);
@@ -32,17 +33,16 @@ body {
     color: #FFA500;
 }
 
-#banner-header button {
+button {
     background-image: linear-gradient(#FFA500, #FFD447);
     border-radius: 16px;
     padding: 17px 24px;
-    /* margin: 0px 100px 0px; */
     margin: 32px 38px;
     cursor: pointer;
     font-size: 15px;
-    background-color: black;
     border: 2px solid black;
     background-size: cover;
+
 }
 
 #banner-container {
@@ -55,7 +55,7 @@ body {
 
 .banner-image {
     justify-content: center;
-    display:flex;
+    display: flex;
     align-items: center;
     padding-bottom: 32px;
 
@@ -77,15 +77,11 @@ body {
     background-image: linear-gradient(#FFA500, #FFD447);
     border-radius: 16px;
     padding: 17px 24px;
-    margin: 0px auto ;
+    margin: 0px auto;
     display: block;
     cursor: pointer;
     text-align: center;
     border: 1px solid black;
-}
-.btn:hover {
-    background-color:aqua;
-box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24);
 }
 
 #second-container {
@@ -103,24 +99,29 @@ box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24);
     margin: 0px 50px;
     gap: auto;
 }
+
 .second-container-header {
     text-align: center;
     margin-bottom: 32px;
     margin-left: 200px;
     margin-right: 200px;
 }
- .second-container-header p {
-margin-top: 20px;
- }
+
+.second-container-header p {
+    margin-top: 20px;
+}
+
 .second-inner-text {
     font-size: 10px;
     padding: 150px 48px;
     color: #666f84;
     text-align: start;
 }
-.second-inner-image{
-width: 50%;
+
+.second-inner-image {
+    width: 50%;
 }
+
 .second-inner-text p {
     padding-bottom: 10px;
     font-size: 16px;
@@ -217,18 +218,28 @@ width: 50%;
     padding: 90px 90px;
     border-radius: 16px;
 }
-.card-content a{
+
+.card-content a {
     margin-top: 30px;
-    
+
 }
-.card-content h2{
+
+.card-content h2 {
     margin-top: 24px;
     margin-bottom: 24px;
- 
+
 }
+
 #footer-part {
     display: flex;
     justify-content: space-between;
     background-color: white;
     padding: 38px 250px;
+}
+
+button:hover {
+    background-image: linear-gradient(#B8E7FA, green);
+    color: #f91909;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+
 }
